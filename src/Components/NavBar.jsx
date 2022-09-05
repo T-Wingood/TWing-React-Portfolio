@@ -20,8 +20,8 @@ const NavBar = (props) => {
               isActive ? activeStyle : inActiveStyle}>Portfolio</NavLink>
             </li>
             <li className="upper-left-link" style = {{padding:"1em"}}>
-                <NavLink to = "/Skills" style={({ isActive }) =>
-              isActive ? activeStyle : inActiveStyle}>Skills</NavLink>
+                <NavLink to = "/Interests" style={({ isActive }) =>
+              isActive ? activeStyle : inActiveStyle}>Interests</NavLink>
             </li>
             <li className="upper-left-link" style = {{padding:"1em"}}>
                 <NavLink to = "/Experience" style={({ isActive }) =>

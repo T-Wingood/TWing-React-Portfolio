@@ -1,0 +1,8 @@
+.center {
+    display: flex;
+    justify-content: center;
+}
+#resume-photo{
+    width: auto;
+    height: 50em;
+}

@@ -1,11 +1,18 @@
 import Footer from "./Footer";
 import Header from "./Header";
+import resumePhoto from "../Media/resume-photo.jpg"
+import resumePDF from "../Media/Resume.pdf"
+import "../CSS/experience.css"
 
 const Experience = (props) => {
     return ( 
     <>
-    <h3>Hello from Experience</h3>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus modi ex itaque maxime pariatur architecto fugiat enim blanditiis, vero impedit quod odio et, accusamus earum expedita nostrum. Quisquam est molestiae excepturi corrupti autem officiis distinctio, quidem iusto ipsum sit maiores culpa, adipisci eum placeat ratione tempora, minus architecto esse illum!</p>
+    <h2 class= "center">Professional Experience </h2>
+    <h3 class= "center">Click below to download Resume</h3>
+    <div>
+    <a id = "resume-photo" class= "center" href={resumePDF} download>
+        <img src= {resumePhoto} alt = "Resume Screenshot"></img></a>
+    </div>
     </> );
 }
  

@@ -1,0 +1,13 @@
+#home-picture{
+    height: 20em;
+}
+
+.home-image{
+    display: flex;
+    justify-content: center;
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+}

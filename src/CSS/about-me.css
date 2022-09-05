@@ -1,0 +1,16 @@
+h1{
+    display: flex;
+    justify-content: space-around;
+}
+
+#about-me-image{
+    display: flex;
+    justify-content: center;
+    height: 40em;
+    width: auto;   
+    }
+
+.about-me{
+    display: flex;
+    margin: 1em 15em
+}
