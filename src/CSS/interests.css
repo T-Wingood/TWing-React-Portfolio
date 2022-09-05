@@ -1,0 +1,15 @@
+div{
+    display: grid; 
+} 
+p{
+    grid-column: 1;
+    margin: 2em 0em 0em 8em
+}
+img{
+    grid-column: 2;
+    margin:2em
+}
+h2{
+    display: flex;
+    justify-content: center;
+}
