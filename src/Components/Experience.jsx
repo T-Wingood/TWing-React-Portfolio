@@ -7,8 +7,8 @@ import "../CSS/experience.css"
 const Experience = (props) => {
     return ( 
     <>
-    <h2 class= "center">Professional Experience </h2>
-    <h3 class= "center">Click below to download Resume</h3>
+    <h1 class= "center fontone">Professional Experience </h1>
+    <h3 class= "center fontone">Click below to download Resume</h3>
     <div>
     <a id = "resume-photo" class= "center" href={resumePDF} download>
         <img src= {resumePhoto} alt = "Resume Screenshot"></img></a>

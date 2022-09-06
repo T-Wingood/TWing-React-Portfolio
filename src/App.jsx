@@ -10,13 +10,14 @@ import Experience from './Components/Experience';
 import Contact from './Components/Contact';
 import Home from './Components/Home';
 
+
 function App() {
   return (
   <>
+
+
+
   <NavBar/>
-  <Routes>
-  <Route path = "/" element = {<Home/>} />
-  </Routes>
   <Routes>
         <Route path = "/Home" element = {<Home/>} />
         <Route path = "/About" element = {<About/>} />
@@ -27,7 +28,6 @@ function App() {
     </Routes>
   <Footer/>
 
-  <br/>
   
 
     </> 

@@ -1,11 +1,11 @@
-div{
+.interest-grid{
     display: grid; 
 } 
 p{
     grid-column: 1;
     margin: 2em 0em 0em 8em
 }
-img{
+.interest-photo{
     grid-column: 2;
     margin:2em
 }
